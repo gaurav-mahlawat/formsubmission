@@ -1,0 +1,130 @@
+@media (width<375px){
+    body{
+background-image:url("assets/images/background-mobile.png");
+     } 
+    }
+    body {
+        background-image: url('assets/images/background-desktop.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+/* 
+    @media screen and (min-width:375px){
+        <img src="assets/images/background-desktop.png" alt="">
+        } */
+@font-face{
+    font-family: Insolata;
+    src:url(https://fonts.google.com/specimen/Inconsolata)
+}
+        /* h2{
+            color:hsl(0, 0%, 100%);
+            font-size: 20px;
+            font-family: Insolata;
+        } */
+
+        #coding{
+            display: flex;
+            flex-direction: column; /* Adjust the layout as needed */
+            align-items: center; /* Align horizontally */
+            margin-top: 25px;
+            /* text-align: center; Center align the text */
+
+        }
+        .mainHeading{
+            color:hsl(0, 0%, 100%);
+            font-size: 20px;
+            font-family: Insolata;
+            margin-top: 8px;
+            text-align: center;
+            position:relative ;
+
+        }
+        .mainHeading h3{
+            text-align: center;
+            color: hsl(245, 15%, 58%);
+            font-size: 1.1rem;
+        }
+    .mainHeading h4{
+        color: hsl(245, 15%, 58%);
+        font-size: 1.1rem;
+        position: absolute ;
+        left: 2px;
+        margin-top: 25px;
+        top: 74%;
+
+    }
+    .upload-box {
+        width: 300px;
+        height: 120px;
+        background-color: #1e1e2f;
+        border: 2px dashed #6a6a6a;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        
+    }
+
+    .upload-box:hover {
+        border-color: #ff784c;
+    }
+
+    form{
+        position: absolute;
+        transform: translateY(450px);
+        left:33%;
+        top:-17px;
+    }
+    input{
+        background: transparent;
+    }
+    label{
+        color: hsl(0, 0%, 100%);
+
+    }
+    #upload{
+        font-size: 14px;
+        color: #b3b3b3;
+        position: absolute;
+    top: 336px;
+    left: 0%;
+    }
+    button{
+        background-color: hsl(7, 88%, 67%);
+        color:hsl(0, 0%, 100%) ;
+        top: 5px;
+        margin-top: 17px;
+    }
+
+    .upload-icon {
+        background-color: #ff784c;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .upload-icon svg {
+        fill: #fff;
+        width: 24px;
+        height: 24px;
+    }
+
+    .upload-text {
+        font-size: 14px;
+        color: #b3b3b3;
+    }
+    .upload-box{
+        position: absolute;
+        left: -4px;
+        transform: translateY(23px);
+        
+    }
